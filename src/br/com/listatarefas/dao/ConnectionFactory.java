@@ -27,7 +27,6 @@ public class ConnectionFactory {
 	
 	private static void abreConexao() {
 		
-		
         String servidor = "YOUR_SERVER_IP"; 
         String porta = "SERVER_PORT";
         String dataBase = "DATABASE_NAME";
@@ -57,5 +56,4 @@ public class ConnectionFactory {
 		}
 	
 	}
-	
 }

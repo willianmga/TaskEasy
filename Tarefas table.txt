@@ -1,8 +1,0 @@
-CREATE TABLE [dbo].[Tarefas] (
-  [id] int IDENTITY(1, 1) NOT NULL,
-  [descricao] varchar(255) NULL,
-  [finalizado] bit NULL,
-  [dataFinalizacao] date NULL,
-  PRIMARY KEY CLUSTERED ([id])
-)
-GO
